@@ -156,7 +156,7 @@ ProductPage.propTypes = {
   }),
 }
 
-export default ProductPage
+//export default ProductPage
 
 export const productPageQuery = graphql`
   query ProductPage($id: String!) {
