@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Amit Shahi - Full Stack Software Developer',
     description:
-      'This repo contains an example business website that is built with Gatsby, and Netlify CMS.It follows the JAMstack architecture by using Git as a single source of truth, and Netlify for continuous deployment, and CDN distribution.',
+      'I am a Computer Science graduate from Annamalai University, India with a Masters in Computer Information System / Computer Applications. I have been working in software industries for over 12 years & I have a very good experience in software development. I have worked on various monolith N-tier applications for an e-Commerce, Agriculture Testing, Food Ordering, Travel, Hospitality, and Healthcare Industry.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
