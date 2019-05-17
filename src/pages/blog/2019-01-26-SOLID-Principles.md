@@ -21,7 +21,6 @@ tags:
 ---
 ![SOLID Principles](/img/solid.jpg "SOLID Principles")
 
-## Concepts of SOLID
 
 ## [Single Responsibility Principle (SRP):](https://github.com/amit-shahi/SOLID-Principles)
 
