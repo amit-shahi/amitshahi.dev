@@ -36,7 +36,7 @@ intro:
         Fiddler, Slack.
     - image: /img/azurecloud.png
       text: >-
-        Cloud: Microsoft Azure, Godaddy & AWS Cloud, Private Clouds, Azure
+        Cloud: Microsoft Azure, Godaddy & AWS Cloud, Private Cloud, Azure
         DevOps, VSTS.
     - image: /img/meeting-space.png
       text: >-
