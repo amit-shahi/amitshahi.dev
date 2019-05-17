@@ -6,7 +6,7 @@ title: About me
 
 ### Education
 
-My name is Amit Shahi, I'm from India. I have completed my Bachelors and Masters in Computer Application from Annamalai University, India. I have 12+ years of experience in Software Development with Microsoft Technologies.
+My name is Amit Shahi, I'm from India. I have completed my Bachelors and Masters in Computer Application from Annamalai University, India. I have 12+ years of experience in Software Development with Microsoft Web Stack & Open Source Technologies.
 
 ### Experience
 
