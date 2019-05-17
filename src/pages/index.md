@@ -7,10 +7,8 @@ subheading: 12+ years of experience in building awesome applications.
 mainpitch:
   title: About Me
   description: >-
-    My name is Amit Shahi, I'm from India. I have completed my Bachelors and
-    Masters in Computer Applications from Annamalai University. I have 12+ years
-    of experience in Software Development with Microsoft and Open Source
-    Technologies.
+    My name is Amit, I'm from India. I have 12+ years of experience in Software
+    Development with Microsoft and Open Source Technologies.
 description: >-
   I work as a Full Stack .NET Developer on eCommerce projects. I using Following
   Technologies Stack.
@@ -18,7 +16,7 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >+
-        Backend Technologies: I use ASP.NET MVC5, Web API, .NET Core 2.x, C#
+        **Backend Technologies:** I use ASP.NET MVC5, Web API, .NET Core 2.x, C#
         6/7, .NET 4.6, LINQ (Language Integrated Query), Entity Framework,
         AutoFac (IoC Container), AutoMapper (Object-Object Mapping), PHP
         (CodeIgnitor 3.x).
