@@ -35,7 +35,9 @@ intro:
         BitBucket, Git Flow, Visual Studio, VS Code, WordPress CMS, Postman,
         Fiddler, Slack.
     - image: /img/azurecloud.png
-      text: 'Cloud: Azure, Godaddy & AWS Cloud, Azure DevOps, VSTS.'
+      text: >-
+        Cloud: Microsoft Azure, Godaddy & AWS Cloud, Private Clouds, Azure
+        DevOps, VSTS.
     - image: /img/meeting-space.png
       text: >-
         Patterns & Practices: S.O.L.I.D Principles, Design Patterns, CQRS, MVC,
