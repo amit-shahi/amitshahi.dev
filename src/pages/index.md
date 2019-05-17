@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Full Stack .NET Developer
-image: /img/lego-pieces-microservices.jpg
+image: /img/lego-pieces-microservices1.jpg
 heading: Technical Background
 subheading: 13+ years of experience in building awesome applications.
 mainpitch:
