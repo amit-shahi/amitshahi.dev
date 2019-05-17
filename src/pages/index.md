@@ -3,51 +3,47 @@ templateKey: index-page
 title: Full Stack .NET Developer
 image: /img/lego-pieces-microservices1.jpg
 heading: Technical Background
-subheading: 13+ years of experience in building awesome applications.
+subheading: 12+ years of experience in building awesome applications.
 mainpitch:
   title: About Me
   description: >-
     My name is Amit Shahi, I'm from India. I have completed my Bachelors and
-    Masters in Computer Application from Annamalai University, India. I have 12+
-    years of experience in Software Development with Microsoft Technologies.
+    Masters in Computer Applications from Annamalai University. I have 12+ years
+    of experience in Software Development with Microsoft and Open Source
+    Technologies.
 description: >-
-  I work as a Full Stack .NET Developer for US based company on their eCommerce
-  project.
+  I work as a Full Stack .NET Developer on eCommerce projects. I using Following
+  Technologies Stack.
 intro:
   blurbs:
     - image: /img/coffee.png
-      text: >
-        We sell green and roasted coffee beans that are sourced directly from
-        independent farmers and farm cooperatives. We’re proud to offer a
-        variety of coffee beans grown with great care for the environment and
-        local communities. Check our post or contact us directly for current
-        availability.
+      text: >+
+        Backend Technologies: I use ASP.NET MVC5, Web API, .NET Core 2.x, C#
+        6/7, .NET 4.6, LINQ (Language Integrated Query), Entity Framework,
+        AutoFac (IoC Container), AutoMapper (Object-Object Mapping), PHP
+        (CodeIgnitor 3.x).
+
     - image: /img/coffee-gear.png
-      text: >
-        We offer a small, but carefully curated selection of brewing gear and
-        tools for every taste and experience level. No matter if you roast your
-        own beans or just bought your first french press, you’ll find a gadget
-        to fall in love with in our shop.
+      text: >-
+        Frontend Technologies: AngularJs 1.x, Angular 2,  Bootstrap 3.x , HTML
+        5, CSS 3, JQuery, JavaScript, Ajax, ES6, TypeScript, Webpack.
     - image: /img/tutorials.png
-      text: >
-        Love a great cup of coffee, but never knew how to make one? Bought a
-        fancy new Chemex but have no clue how to use it? Don't worry, we’re here
-        to help. You can schedule a custom 1-on-1 consultation with our baristas
-        to learn anything you want to know about coffee roasting and brewing.
-        Email us or call the store for details.
+      text: >-
+        Databases: MS SQL Server, SQL Server Management Studio, MySQL. Studying
+        about No-SQL these days.
     - image: /img/meeting-space.png
       text: >
-        We believe that good coffee has the power to bring people together.
-        That’s why we decided to turn a corner of our shop into a cozy meeting
-        space where you can hang out with fellow coffee lovers and learn about
-        coffee making techniques. All of the artwork on display there is for
-        sale. The full price you pay goes to the artist.
-  heading: Technologies
-  description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+        Tools & Methodologies: JSON, XML, RESTful API, Web Services, GitHub,
+        BitBucket, Git Flow, Visual Studio, VS Code, WordPress CMS, Postman,
+        Fiddler, Slack.
+    - image: /img/msazurelogo.png
+      text: 'Cloud: Azure, Godaddy & AWS Cloud, Azure DevOps, VSTS.'
+    - image: /img/meeting-space.png
+      text: >-
+        Patterns & Practices: S.O.L.I.D Principles, Design Patterns, CQRS, MVC,
+        Agile, Studying about Domain Driven Design, MicroServices these days.
+  heading: Intro
+  description: Intro desc
 main:
   heading: Great coffee with no compromises
   description: >
