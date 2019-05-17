@@ -34,7 +34,7 @@ intro:
         Tools & Methodologies: JSON, XML, RESTful API, Web Services, GitHub,
         BitBucket, Git Flow, Visual Studio, VS Code, WordPress CMS, Postman,
         Fiddler, Slack.
-    - image: /img/msazurelogo.png
+    - image: /img/azurecloud.png
       text: 'Cloud: Azure, Godaddy & AWS Cloud, Azure DevOps, VSTS.'
     - image: /img/meeting-space.png
       text: >-
