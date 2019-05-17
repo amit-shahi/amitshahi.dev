@@ -1,36 +1,61 @@
 ---
 templateKey: blog-post
-title: Making sense of the SCAA’s new Flavor Wheel
-date: 2016-12-17T15:04:10.000Z
+title: SOLID Principles
+date: 2019-03-17T15:04:10.000Z
 description: >-
-  The Coffee Taster’s Flavor Wheel, the official resource used by coffee
-  tasters, has been revised for the first time this year.
+  SOLID Principles are the acronym for five design principles which was
+  introduced by Robert C Martin (Uncle Bob). These are the fundamental
+  principles of which let you write your more which makes are more
+  understandable in a specific context, flexible and maintainable in the long
+  run.
 featuredpost: true
-featuredimage: /img/flavor_wheel.jpg
+featuredimage: /img/solid.jpg
 tags:
   - flavor
   - tasting
 ---
+![SOLID Principles](/img/solid.jpg "SOLID Principles")
 
-![flavor wheel](/img/flavor_wheel.jpg)
+## Concepts of SOLID
 
-The SCAA updated the wheel to reflect the finer nuances needed to describe flavors more precisely. The new descriptions are more detailed and hence allow cuppers to distinguish between more flavors.
+## Single Responsibility Principle (SRP):
 
-While this is going to be a big change for professional coffee tasters, it means a lot to you as a consumer as well. We’ll explain how the wheel came to be, how pros use it and what the flavors actually mean.
+1. The single responsibility principle is a computer programming principle that states that every module, class, or function should have responsibility over a single part of the functionality provided by the software,
+2.  and that responsibility should be entirely encapsulated by the class. All its services should be narrowly aligned with that responsibility. 
 
-## What the updates mean to you
+In Short, A class should have only one reason to change. A class should have only a single responsibility, that is, only changes to one part of the software's specification should be able to affect the specification of the class.
 
-The Specialty Coffee Association of America (SCAA), founded in 1982, is a non-profit trade organization for the specialty coffee industry. With members located in more than 40 countries, SCAA represents every segment of the specialty coffee industry, including:
+## Open–Closed Principle (OCP):
 
-* producers
-* roasters
-* importers/exporters
-* retailers
-* manufacturers
-* baristas
+1. In object-oriented programming, the open/closed principle states "software entities should be open for extension, but closed for modification"; 
+2. that is, such an entity can allow its behaviour to be extended without modifying its source code.
 
-For over 30 years, SCAA has been dedicated to creating a vibrant specialty coffee community by recognizing, developing and promoting specialty coffee. SCAA sets and maintains quality standards for the industry, conducts market research, and provides education, training, resources, and business services for its members.
+In Short, Software entities (like classes & interfaces) should be open for extension, but closed for modification.
 
-Coffee cupping, or coffee tasting, is the practice of observing the tastes and aromas of brewed coffee. It is a professional practice but can be done informally by anyone or by professionals known as "Q Graders". A standard coffee cupping procedure involves deeply sniffing the coffee, then loudly slurping the coffee so it spreads to the back of the tongue.
 
-The coffee taster attempts to measure aspects of the coffee's taste, specifically the body (the texture or mouthfeel, such as oiliness), sweetness, acidity (a sharp and tangy feeling, like when biting into an orange), flavour (the characters in the cup), and aftertaste. Since coffee beans embody telltale flavours from the region where they were grown, cuppers may attempt to identify the coffee's origin.
+
+## Liskov Substitution Principle (LSP):
+
+Substitutability is a principle in object-oriented programming stating that, in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S without altering any of the desirable properties of the program. 
+
+In Short, "Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program." See also design by contract.
+
+
+
+## Interface Segregation Principle (ISP):
+
+1. In the field of software engineering, the interface-segregation principle (ISP) states that no client should be forced to depend on methods it does not use.
+2.  ISP splits interfaces that are very large into smaller and more specific ones so that clients will only have to know about the methods that are of interest to them.
+3.  ISP is intended to keep a system decoupled and thus easier to refactor, change, and redeploy. 
+
+In Short, Many client-specific interfaces are better than one general-purpose interface.
+
+
+
+## Dependency Inversion Principle (DIP):
+
+1. In object-oriented design, the dependency inversion principle is a specific form of decoupling software modules. 
+2. High-level modules should not depend on low-level modules implementation details. Both should depend on abstractions (e.g. interfaces).
+3. Abstractions should not depend on details. Details (concrete implementations) should depend on abstractions.
+
+In short, One should "depend upon abstractions like interfaces or abstract classes, \[not] concretions like (concrete class).
