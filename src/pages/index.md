@@ -16,7 +16,7 @@ intro:
   blurbs:
     - image: /img/coffee.png
       text: >+
-        **Backend Technologies:** I use ASP.NET MVC5, Web API, .NET Core 2.x, C#
+        Backend Technologies: I use ASP.NET MVC5, Web API, .NET Core 2.x, C#
         6/7, .NET 4.6, LINQ (Language Integrated Query), Entity Framework,
         AutoFac (IoC Container), AutoMapper (Object-Object Mapping), PHP
         (CodeIgnitor 3.x).
@@ -24,7 +24,7 @@ intro:
     - image: /img/coffee-gear.png
       text: >-
         Frontend Technologies: AngularJs 1.x, Angular 2,  Bootstrap 3.x , HTML
-        5, CSS 3, JQuery, JavaScript, Ajax, ES6, TypeScript, Webpack.
+        5, CSS 3, JQuery, JavaScript, Ajax, ES6, TypeScript, Gulp, Webpack.
     - image: /img/tutorials.png
       text: >-
         Databases: MS SQL Server, SQL Server Management Studio, MySQL. Studying
