@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: 'Amit Shahi - Full Stack .NET Software Developer',
     description:
-      'I am a Computer Science graduate from Annamalai University, India with a Masters in Computer Information System / Computer Applications. I have been working in software industries for over 12 years & I have a very good experience in software development. I have worked on various monolith N-tier applications for an e-Commerce, Agriculture Testing, Food Ordering, Travel, Hospitality, and Healthcare Industry.',
+      'I am a graduate from Annamalai University, India with a Masters in Computer Information System / Computer Applications. I have been working in software industries for over 12 years & have a very good experience in software development. I have worked on various monolith N-tier applications for an e-Commerce, Agriculture Testing, Food Ordering, Travel, Hospitality, and Healthcare Industry.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
