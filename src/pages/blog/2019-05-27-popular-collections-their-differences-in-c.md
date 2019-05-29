@@ -20,6 +20,8 @@ tags:
   - Dictionary
   - ''
 ---
+![Collections in C#](/img/collections-in-c-sharp.png "Collections in C#")
+
 ## List < T >
 
 * It represents a **strongly typed list** of objects that can be accessed by **index**.
