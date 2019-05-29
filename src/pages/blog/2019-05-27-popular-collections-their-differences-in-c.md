@@ -11,6 +11,14 @@ description: >-
   and when we should use them.
 featuredpost: true
 featuredimage: /img/collections-in-c-sharp.png
+tags:
+  - Collections
+  - Generics
+  - List
+  - Hashtable
+  - Hashset
+  - Dictionary
+  - ''
 ---
 ## List < T >
 
