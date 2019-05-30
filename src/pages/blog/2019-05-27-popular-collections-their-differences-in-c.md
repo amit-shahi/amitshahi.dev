@@ -38,9 +38,7 @@ tags:
 
 **Disadvantage:**
 
-
-
-
+****
 
 Example:
 
@@ -90,6 +88,8 @@ _list.BinarySearch("1");
 
 
 **Disadvantage:**
+
+****
 
 Example:
 
@@ -145,8 +145,6 @@ There is a performance benefit of using HashSet<T> over List<T>
 
 ****
 
-****
-
 Example:
 
 Add an item to the Dictionary
@@ -196,8 +194,6 @@ _dictionary.Contains("Wordpress");
 
 
 **Disadvantage:**
-
-****
 
 ****
 
