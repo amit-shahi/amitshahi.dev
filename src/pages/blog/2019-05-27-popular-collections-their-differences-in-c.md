@@ -30,6 +30,18 @@ tags:
 * It let us **manipulate** **a list** by doing Add, Remove, and Insert functions
 * As it's a **generic class**, it let us create strongly typed collection of value types and reference types.
 
+****
+
+**Advantage:** 
+
+
+
+**Disadvantage:**
+
+
+
+
+
 Example:
 
 Add an item to the list
@@ -70,6 +82,14 @@ _list.BinarySearch("1");
 * can be **null**
 * and can be **non-unique**
 * It's a generic class
+
+****
+
+**Advantage:** 
+
+
+
+**Disadvantage:**
 
 Example:
 
@@ -115,6 +135,18 @@ There is a performance benefit of using HashSet<T> over List<T>
 * **can have duplicate**  and **null values**
 * keys **must be unique** otherwise it will throw an exception at runtime. This can be avoided by using TryGetValue() method.
 
+****
+
+**Advantage:** 
+
+
+
+**Disadvantage:**
+
+****
+
+****
+
 Example:
 
 Add an item to the Dictionary
@@ -156,6 +188,18 @@ _dictionary.Contains("Wordpress");
 * **It doesn't allow null keys**
 * As it is synchronized, it comes with it's cost. **Only one thread can access it in one time**.
 * It **prints the values in a reverse order** (like LIFO)
+
+****
+
+**Advantage:** 
+
+
+
+**Disadvantage:**
+
+****
+
+****
 
 Example:
 
