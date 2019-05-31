@@ -34,11 +34,14 @@ tags:
 
 **Advantage:** 
 
+1. The **List**<> takes less time to add strings when compared to **HashSet**<>. The reason behind this is List.Add() simply adds an item to the list whereas HashSet.Add() will skip new item if it (is)equal to one of the existing items. This takes time to execute HashSet.Add() method as compare to List.Add() method.
+
 
 
 **Disadvantage:**
 
-****
+1. **List**<> provides slower lookup for the element compare to **HashSet**<>.
+2. Removal operation of **List**<> is slower than the **HashSet**<>. The Remove operation also works similar to the Contains operation.
 
 Example:
 
@@ -85,11 +88,15 @@ _list.BinarySearch("1");
 
 **Advantage:** 
 
+1. **HashSet**<> provides faster lookup for the element than the **List**<>.
+2. This is because of no duplicate data in the **HashSet**<>. The **HashSet** maintains the Hash for each item in it and arranges these in separate buckets containing hash for each character of item stored in HashSet.
 
+   When the lookup occurs, the **HashSet** hashes it and jumps it to the matching bucket for each character starting from the first character and extracts the element from **HashSet**.
+3. Removal operation of HashSet<> is faster than the List<>. The Remove operation also works similar to the Contains operation.
 
 **Disadvantage:**
 
-****
+1. The **HashSet**<> takes more time to add strings when compared to **List**<>. The reason behind this is List.Add() simply adds an item to the list whereas HashSet.Add() will skip new item if it (is)equal to one of the existing items. This takes time to execute HashSet.Add() method as compare to List.Add() method.
 
 Example:
 
