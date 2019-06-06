@@ -30,13 +30,21 @@ tags:
 * It let us **manipulate** **a list** by doing Add, Remove, and Insert functions
 * As it's a **generic class**, it let us create strongly typed collection of value types and reference types.
 
+- - -
+
+**Space & Time Complexity:**
+
+**Best-Case:**
+
+**Worst-Case:**
+
+**Average-Case:**
+
 ****
 
 **Advantage:** 
 
 1. The **List**<> takes less time to add strings when compared to **HashSet**<>. The reason behind this is List.Add() simply adds an item to the list whereas HashSet.Add() will skip new item if it (is)equal to one of the existing items. This takes time to execute HashSet.Add() method as compare to List.Add() method.
-
-
 
 **Disadvantage:**
 
@@ -84,13 +92,22 @@ _list.BinarySearch("1");
 * and can be **non-unique**
 * It's a generic class
 
+- - -
+
+**Space & Time Complexity:**
+
+**Best-Case:**
+
+**Worst-Case:**
+
+**Average-Case:**
+
 ****
 
 **Advantage:** 
 
 1. **HashSet**<> provides faster lookup for the element than the **List**<>.
 2. This is because of no duplicate data in the **HashSet**<>. The **HashSet** maintains the Hash for each item in it and arranges these in separate buckets containing hash for each character of item stored in HashSet.
-
    When the lookup occurs, the **HashSet** hashes it and jumps it to the matching bucket for each character starting from the first character and extracts the element from **HashSet**.
 3. Removal operation of HashSet<> is faster than the List<>. The Remove operation also works similar to the Contains operation.
 
@@ -142,15 +159,23 @@ There is a performance benefit of using HashSet<T> over List<T>
 * **can have duplicate**  and **null values**
 * keys **must be unique** otherwise it will throw an exception at runtime. This can be avoided by using TryGetValue() method.
 
+- - -
+
+**Space & Time Complexity:**
+
+**Best-Case:**
+
+**Worst-Case:**
+
+**Average-Case:**
+
 ****
 
 **Advantage:** 
 
-
-
 **Disadvantage:**
 
-****
+- - -
 
 Example:
 
@@ -194,15 +219,23 @@ _dictionary.Contains("Wordpress");
 * As it is synchronized, it comes with it's cost. **Only one thread can access it in one time**.
 * It **prints the values in a reverse order** (like LIFO)
 
+- - -
+
+**Space & Time Complexity:**
+
+**Best-Case:**
+
+**Worst-Case:**
+
+**Average-Case:**
+
 ****
 
 **Advantage:** 
 
-
-
 **Disadvantage:**
 
-****
+- - -
 
 Example:
 
