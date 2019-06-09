@@ -34,13 +34,13 @@ tags:
 
 **Space & Time Complexity:**
 
-**Best-Case:**
+**Best-Case: O(1)**
 
-**Worst-Case:**
+**Worst-Case: O(n)**
 
-**Average-Case:**
+**Average-Case: O(1)**
 
-****
+- - -
 
 **Advantage:** 
 
@@ -102,7 +102,7 @@ _list.BinarySearch("1");
 
 **Average-Case:**
 
-****
+- - -
 
 **Advantage:** 
 
@@ -169,7 +169,7 @@ There is a performance benefit of using HashSet<T> over List<T>
 
 **Average-Case:**
 
-****
+- - -
 
 **Advantage:** 
 
@@ -229,7 +229,7 @@ _dictionary.Contains("Wordpress");
 
 **Average-Case:**
 
-****
+- - -
 
 **Advantage:** 
 
