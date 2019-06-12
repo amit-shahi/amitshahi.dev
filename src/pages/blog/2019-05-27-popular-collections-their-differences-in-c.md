@@ -34,13 +34,19 @@ tags:
 
 **Space & Time Complexity:**
 
-**Best-Case: O(1)**
+**Best-Case:**
 
-**Worst-Case: O(n)**
+Lookup -    Insertion -   Deletion - 
 
-**Average-Case: O(1)**
+**Worst-Case:**
 
-- - -
+Lookup -    Insertion -   Deletion - 
+
+**Average-Case:**
+
+Lookup -    Insertion -   Deletion - 
+
+
 
 **Advantage:** 
 
@@ -98,11 +104,17 @@ _list.BinarySearch("1");
 
 **Best-Case:**
 
+Lookup -    Insertion -   Deletion - 
+
 **Worst-Case:**
+
+Lookup -    Insertion -   Deletion - 
 
 **Average-Case:**
 
-- - -
+Lookup -    Insertion -   Deletion - 
+
+****
 
 **Advantage:** 
 
@@ -165,11 +177,17 @@ There is a performance benefit of using HashSet<T> over List<T>
 
 **Best-Case:**
 
+Lookup -    Insertion -   Deletion - 
+
 **Worst-Case:**
+
+Lookup -    Insertion -   Deletion - 
 
 **Average-Case:**
 
-- - -
+Lookup -    Insertion -   Deletion - 
+
+****
 
 **Advantage:** 
 
@@ -225,11 +243,17 @@ _dictionary.Contains("Wordpress");
 
 **Best-Case:**
 
+Lookup -    Insertion -   Deletion - 
+
 **Worst-Case:**
+
+Lookup -    Insertion -   Deletion - 
 
 **Average-Case:**
 
-- - -
+Lookup -    Insertion -   Deletion - 
+
+****
 
 **Advantage:** 
 
