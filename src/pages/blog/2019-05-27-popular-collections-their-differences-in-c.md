@@ -38,15 +38,15 @@ tags:
 
 **Best-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -    **Insertion** -   **Deletion** - 
 
 **Average-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -    **Insertion** -   **Deletion** - 
 
 **Worst-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -    **Insertion** -   **Deletion** - 
 
 > **Time Complexity**
 
@@ -112,15 +112,15 @@ _list.BinarySearch("1");
 
 **Best-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -    **Insertion** -   **Deletion** - 
 
 **Average-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -    **Insertion** -   **Deletion** - 
 
 **Worst-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -    **Insertion** -   **Deletion** - 
 
 > **Time Complexity**
 
@@ -191,15 +191,15 @@ There is a performance benefit of using HashSet<T> over List<T>
 
 **Best-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -    **Insertion** -   **Deletion** - 
 
 **Average-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -    **Insertion** -   **Deletion** - 
 
 **Worst-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -    **Insertion** -   **Deletion** - 
 
 > **Time Complexity**
 
@@ -263,19 +263,21 @@ _dictionary.Contains("Wordpress");
 
 **Best-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -    **Insertion** -   **Deletion** - 
 
 **Average-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** - O(1)  **Insertion** - O(1)    **Deletion** - O(1) 
 
 **Worst-Case:**
 
-Lookup -    Insertion -   Deletion - 
+**Lookup** -  O(n)  **Insertion** - O(n)   **Deletion** - O(n) 
 
 > **Time Complexity**
 
 **Worst-Case:**
+
+O(n)
 
 ****
 
