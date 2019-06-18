@@ -263,7 +263,7 @@ _dictionary.Contains("Wordpress");
 
 **Best-Case:**
 
-**Lookup** -    **Insertion** -   **Deletion** - 
+**Lookup** -  O(1)  **Insertion** -  O(1)  **Deletion** - O(1)
 
 **Average-Case:**
 
