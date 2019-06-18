@@ -38,21 +38,21 @@ Space Complexity-
 
 Best-Case:
 
-* **Lookup** -  O(1)
+* **Lookup** -  O(n)
 * **Insertion** -  O(1)
 * **Deletion** - O(1) 
 
 Average-Case:
 
-* **Lookup** - O(1)  
+* **Lookup** - O(n)  
 * **Insertion** - O(1)    
 * **Deletion** - O(1) 
 
 Worst-Case:
 
 * **Lookup** -  O(n)  
-* **Insertion** - O(n)   
-* **Deletion** - O(n) 
+* **Insertion** - O(1)   
+* **Deletion** - O(1) 
 
 Time Complexity-
 
