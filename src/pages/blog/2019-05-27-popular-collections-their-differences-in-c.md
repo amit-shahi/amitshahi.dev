@@ -317,8 +317,8 @@ foreach(DictionaryEntry item in _hashTable.Values) {
 }
 ```
 
-There are no binary search available for HashSet, instead we can use .Contains() to lookup an item in a HashSet. 
+There are no binary search available for Hashtable, instead we can use .Contains() to lookup an item in a Hashtable. 
 
 ```
-_hashSet.Contains("Wordpress");
+_hashTable.Contains("Wordpress");
 ```
