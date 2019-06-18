@@ -32,25 +32,31 @@ tags:
 
 - - -
 
-**Space & Time Complexity:**
+**Space & Time Complexity:** 
 
-> **Space Complexity**
+Space Complexity-
 
-**Best-Case:**
+Best-Case:
 
-**Lookup** -    **Insertion** -   **Deletion** - 
+* **Lookup** -  O(1)
+* **Insertion** -  O(1)
+* **Deletion** - O(1) 
 
-**Average-Case:**
+Average-Case:
 
-**Lookup** -    **Insertion** -   **Deletion** - 
+* **Lookup** - O(1)  
+* **Insertion** - O(1)    
+* **Deletion** - O(1) 
 
-**Worst-Case:**
+Worst-Case:
 
-**Lookup** -    **Insertion** -   **Deletion** - 
+* **Lookup** -  O(n)  
+* **Insertion** - O(n)   
+* **Deletion** - O(n) 
 
-> **Time Complexity**
+Time Complexity-
 
-**Worst-Case:**
+* **Worst-Case:** O(n)
 
 - - -
 
@@ -108,23 +114,29 @@ _list.BinarySearch("1");
 
 **Space & Time Complexity:**
 
-> **Space Complexity**
+Space Complexity-
 
-**Best-Case:**
+Best-Case:
 
-**Lookup** -    **Insertion** -   **Deletion** - 
+* **Lookup** -  O(1)
+* **Insertion** -  O(1)
+* **Deletion** - O(1) 
 
-**Average-Case:**
+Average-Case:
 
-**Lookup** -    **Insertion** -   **Deletion** - 
+* **Lookup** - O(1)  
+* **Insertion** - O(1)    
+* **Deletion** - O(1) 
 
-**Worst-Case:**
+Worst-Case:
 
-**Lookup** -    **Insertion** -   **Deletion** - 
+* **Lookup** -  O(n)  
+* **Insertion** - O(n)   
+* **Deletion** - O(n) 
 
-> **Time Complexity**
+Time Complexity-
 
-**Worst-Case:**
+* **Worst-Case:** O(n)
 
 - - -
 
@@ -187,23 +199,29 @@ There is a performance benefit of using HashSet<T> over List<T>
 
 **Space & Time Complexity:**
 
-> **Space Complexity**
+Space Complexity-
 
-**Best-Case:**
+Best-Case:
 
-**Lookup** -    **Insertion** -   **Deletion** - 
+* **Lookup** -  O(1)
+* **Insertion** -  O(1)
+* **Deletion** - O(1) 
 
-**Average-Case:**
+Average-Case:
 
-**Lookup** -    **Insertion** -   **Deletion** - 
+* **Lookup** - O(1)  
+* **Insertion** - O(1)    
+* **Deletion** - O(1) 
 
-**Worst-Case:**
+Worst-Case:
 
-**Lookup** -    **Insertion** -   **Deletion** - 
+* **Lookup** -  O(n)  
+* **Insertion** - O(n)   
+* **Deletion** - O(n) 
 
-> **Time Complexity**
+Time Complexity-
 
-**Worst-Case:**
+* **Worst-Case:** O(n)
 
 - - -
 
@@ -259,25 +277,29 @@ _dictionary.Contains("Wordpress");
 
 **Space & Time Complexity:**
 
-> **Space Complexity**
+Space Complexity-
 
-**Best-Case:**
+Best-Case:
 
-**Lookup** -  O(1)  **Insertion** -  O(1)  **Deletion** - O(1)
+* **Lookup** -  O(1)
+* **Insertion** -  O(1)
+* **Deletion** - O(1) 
 
-**Average-Case:**
+Average-Case:
 
-**Lookup** - O(1)  **Insertion** - O(1)    **Deletion** - O(1) 
+* **Lookup** - O(1)  
+* **Insertion** - O(1)    
+* **Deletion** - O(1) 
 
-**Worst-Case:**
+Worst-Case:
 
-**Lookup** -  O(n)  **Insertion** - O(n)   **Deletion** - O(n) 
+* **Lookup** -  O(n)  
+* **Insertion** - O(n)   
+* **Deletion** - O(n) 
 
-> **Time Complexity**
+Time Complexity-
 
-**Worst-Case:**
-
-O(n)
+* **Worst-Case:** O(n)
 
 - - -
 
