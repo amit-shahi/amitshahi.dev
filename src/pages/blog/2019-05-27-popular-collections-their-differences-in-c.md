@@ -52,7 +52,7 @@ tags:
 
 **Worst-Case:**
 
-****
+- - -
 
 **Advantage:** 
 
@@ -126,7 +126,7 @@ _list.BinarySearch("1");
 
 **Worst-Case:**
 
-****
+- - -
 
 **Advantage:** 
 
@@ -205,7 +205,7 @@ There is a performance benefit of using HashSet<T> over List<T>
 
 **Worst-Case:**
 
-****
+- - -
 
 **Advantage:** 
 
@@ -253,7 +253,7 @@ _dictionary.Contains("Wordpress");
 * where **Key cannot be duplicated**
 * **It doesn't allow null keys**
 * As it is synchronized, it comes with it's cost. **Only one thread can access it in one time**.
-* It **prints the values in a reverse order** (like LIFO)
+* It **prints the values as per HashCode generated internally**
 
 - - -
 
@@ -279,7 +279,7 @@ _dictionary.Contains("Wordpress");
 
 O(n)
 
-****
+- - -
 
 **Advantage:** 
 
