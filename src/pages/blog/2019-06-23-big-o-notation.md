@@ -19,6 +19,8 @@ tags:
 ---
 ![Big O Complexity Chart](/img/bigocomplexitychart.jpeg "Big O Complexity Chart")
 
+![Big O Complexity Chart](/img/bigonotation.png "Big O Complexity Chart")
+
 ## O(1) - Constant Running Time
 
 O(1) describes an algorithm that will always execute in the same time (or space) regardless of the size of the input data set.
@@ -46,7 +48,7 @@ bool ContainsValue(List<string> elements, string value)
 }
 ```
 
-## O(N2) - Quadratic Running Time
+## O(N2) - Quadratic (type of Polynomial) Running Time
 
 O(N2) represents an algorithm whose performance is directly proportional to the square of the size of the input data set. This is common with algorithms that involve nested iterations over the data set. Deeper nested iterations will result in O(N3), O(N4) etc.
 
@@ -82,3 +84,50 @@ int Fibonacci(int number)
 ```
 
 ## O(log N) - Logarithmic Running Time
+
+Logarithmic O(log N) — narrows down the search by repeatedly halving the dataset until you find the target value.
+
+Using binary search — which is a form of logarithmic algorithm, finds the median in the array and compares it to the target value. The algorithm will traverse either upwards or downwards depending on the target value being higher than, lower than or equal to the median.
+
+```
+public class BinarySearch<T>
+    {
+        public int Search(T[] array, T target)
+        {
+            if (!String.IsNullOrEmpty(target.ToString()))
+
+                return SearchHelper(array, target, 0, array.Length - 1);
+
+            return -1;
+        }
+
+        private int SearchHelper(T[] array, T target, int left, int right)
+        {
+            while (left <= right)
+            {
+                int middle = left + ((right - left) / 2);
+
+                var currentItem = array[middle];
+
+
+                Comparer<T> comparer = Comparer<T>.Default;
+
+                // Check if target is present at middle position  
+
+                if (comparer.Compare(currentItem, target) == 0)
+                    return middle;
+
+                // Check if target is smaller then middle position, ignore right half   
+                else if (comparer.Compare(currentItem, target) > 0)
+                    
+                    right = middle - 1;
+                // Check if target is greater then middle position, ignore left half  
+                else
+
+                    left = middle + 1;
+            }
+
+            return -1;
+        }
+    }
+```
