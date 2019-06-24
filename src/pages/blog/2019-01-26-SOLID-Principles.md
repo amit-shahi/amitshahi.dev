@@ -8,7 +8,7 @@ description: >-
   principles of which let you write your more which makes are more
   understandable in a specific context, flexible and maintainable in the long
   run.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/solid.jpg
 tags:
   - solid
