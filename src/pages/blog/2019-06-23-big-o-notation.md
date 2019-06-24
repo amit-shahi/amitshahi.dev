@@ -87,7 +87,7 @@ Logarithmic O(log N) — narrows down the search by repeatedly halving the d
 
 Using binary search — which is a form of logarithmic algorithm, finds the median in the array and compares it to the target value. The algorithm will traverse either upwards or downwards depending on the target value being higher than, lower than or equal to the median.
 
-```
+```C#
 public class BinarySearch<T>
     {
         public int Search(T[] array, T target)
@@ -106,16 +106,12 @@ public class BinarySearch<T>
                 var currentItem = array[middle];
 
                 Comparer<T> comparer = Comparer<T>.Default;
-
-                // Check if target is present at middle position  
+ 
                 if (comparer.Compare(currentItem, target) == 0)
                     return middle;
 
-                // Check if target is smaller then middle position, ignore right half   
                 else if (comparer.Compare(currentItem, target) > 0)
-                    
                     right = middle - 1;
-                // Check if target is greater then middle position, ignore left half  
                 else
                     left = middle + 1;
             }
