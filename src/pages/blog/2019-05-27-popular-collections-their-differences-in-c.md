@@ -9,7 +9,7 @@ description: >-
   are doing the same things. Well, there is more to it than just what we know.
   In this post, I will walk you through popular collections and the reason why
   and when we should use them.
-featuredpost: true
+featuredpost: false
 featuredimage: /img/collections-in-c-sharp.png
 tags:
   - Collections
