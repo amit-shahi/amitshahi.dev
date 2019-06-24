@@ -43,7 +43,6 @@ bool ContainsValue(List<string> elements, string value)
     {
         if (element == value) return true;
     }
-
     return false;
 }
 ```
@@ -65,7 +64,6 @@ bool ContainsDuplicates(List<string> elements)
             if (elements[outer] == elements[inner]) return true;
         }
     }
-
     return false;
 }
 ```
@@ -97,7 +95,6 @@ public class BinarySearch<T>
             if (!String.IsNullOrEmpty(target.ToString()))
 
                 return SearchHelper(array, target, 0, array.Length - 1);
-
             return -1;
         }
 
@@ -106,14 +103,11 @@ public class BinarySearch<T>
             while (left <= right)
             {
                 int middle = left + ((right - left) / 2);
-
                 var currentItem = array[middle];
-
 
                 Comparer<T> comparer = Comparer<T>.Default;
 
                 // Check if target is present at middle position  
-
                 if (comparer.Compare(currentItem, target) == 0)
                     return middle;
 
@@ -123,10 +117,8 @@ public class BinarySearch<T>
                     right = middle - 1;
                 // Check if target is greater then middle position, ignore left half  
                 else
-
                     left = middle + 1;
             }
-
             return -1;
         }
     }
