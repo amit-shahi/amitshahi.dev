@@ -119,3 +119,27 @@ public class BinarySearch<T>
         }
     }
 ```
+
+## O( N (log N) ) - Quasilinear time/ log-linear / Linearithmic Time
+
+This is the time complexity of divide and conquer sorting algorithms.
+
+In O(N log N), N is the input size (or number of elements).
+
+log N is actually logarithm to the base 2
+
+In divide and conquer approach, we divide the problem into sub problems(divide) and solve them separately and then combine the solutions(conquer).
+
+**When the list of input size n is divided into two halves, we get the log n time complexity.**
+
+That’s why **Merge sort’s** time complexity is O(n log n).
+
+Binary search’s time complexity(which is not divide and conquer approach but divides the list into two halves) which is O(log n)
+
+***
+An algorithm with worst-case time complexity W(n) ∊ O(n log n) scales very well. The logarithm function grows very slowly:
+
+log2 1,000 ≈ 10,
+log2 1,000,000 ≈ 20,
+log2 1,000,000,000 ≈ 30.
+In fact, O(n log n) time complexity is close to linear: it takes roughly twice the time to solve a problem twice as big.
