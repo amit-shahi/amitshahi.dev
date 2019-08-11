@@ -74,7 +74,7 @@ Example:
 Add an item to the list
 
 ```
-List<string> _list = new List<string();
+List<string> _list = new List<string>();
 _list.Add("A");
 _list.Add("B");
 _list.Add(null); // Note: Can't do binary search on null values
@@ -156,7 +156,7 @@ Example:
 Add an item to the HashSet
 
 ```
-HashSet<string> _hashSet = new HashSet<string();
+HashSet<string> _hashSet = new HashSet<string>();
 _hashSet.Add("Wordpress");
 _hashSet.Add("CMS");
 _hashSet.Add(null);
@@ -236,7 +236,7 @@ Example:
 Add an item to the Dictionary
 
 ```
-Dictionary<int, string> _dictionary = new Dictionary<int, string();
+Dictionary<int, string> _dictionary = new Dictionary<int, string>();
 _dictionary.Add(1, "Wordpress");
 _dictionary.Add(2, "CMS");
 _dictionary.Add(3, null); // can have null values
@@ -259,10 +259,19 @@ foreach(KeyValuePair<int, string> item in _dictionary) {
 }
 ```
 
-There are no binary search available for Dictionary, instead we can use .Contains() to lookup an item in a Dictionary. 
+Access Value from Dictionary collection by it's Key
 
 ```
-_dictionary.Contains("Wordpress");
+_dictionary[1];
+
+```
+
+
+There are no binary search available for Dictionary, instead we can use .ContainsKey() or .ContainsValue() to lookup an item in a Dictionary either by a key or a value. 
+
+```
+_dictionary.ContainsKey(1);
+_dictionary.ContainsValue("Wordpress");
 ```
 
 ## Hashtable
