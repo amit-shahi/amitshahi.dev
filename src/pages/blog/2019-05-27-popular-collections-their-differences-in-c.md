@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: 'Popular Collections & their differences in C#'
+title: Popular Collections & their differences in C Sharp
 date: 2019-05-26T09:10:46.871Z
 description: >-
   We all have worked with different types of collections in C# or other
