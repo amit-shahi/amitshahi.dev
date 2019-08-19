@@ -53,7 +53,10 @@ public class BinarySearch<T>
         {
             while (left <= right)
             {
+                // left + ((right - left) / 2) prevents integer flow.
+
                 int middle = left + ((right - left) / 2);
+
                 var currentItem = array[middle];
 
                 Comparer<T> comparer = Comparer<T>.Default;
