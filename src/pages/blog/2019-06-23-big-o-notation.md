@@ -32,6 +32,46 @@ bool IsFirstElementNull(List<string> elements)
 }
 ```
 
+## O(log N) - Logarithmic Running Time
+
+Logarithmic O(log N) — narrows down the search by repeatedly halving the dataset until you find the target value.
+
+Using binary search — which is a form of logarithmic algorithm, finds the median in the array and compares it to the target value. The algorithm will traverse either upwards or downwards depending on the target value being higher than, lower than or equal to the median.
+
+```C#
+public class BinarySearch<T>
+    {
+        public int Search(T[] array, T target)
+        {
+            if (!String.IsNullOrEmpty(target.ToString()))
+
+                return SearchHelper(array, target, 0, array.Length - 1);
+            return -1;
+        }
+
+        private int SearchHelper(T[] array, T target, int left, int right)
+        {
+            while (left <= right)
+            {
+                int middle = left + ((right - left) / 2);
+                var currentItem = array[middle];
+
+                Comparer<T> comparer = Comparer<T>.Default;
+ 
+                if (comparer.Compare(currentItem, target) == 0)
+                    return middle;
+
+                else if (comparer.Compare(currentItem, target) > 0)
+                    right = middle - 1;
+                else
+                    left = middle + 1;
+            }
+            return -1;
+        }
+    }
+```
+
+
 ## O(N) - Linear Running Time
 
 O(N) describes an algorithm whose performance will grow linearly and in direct proportion to the size of the input data set. The example below also demonstrates how Big O favours the worst-case performance scenario; a matching string could be found during any iteration of the for loop and the function would return early, but Big O notation will always assume the upper limit where the algorithm will perform the maximum number of iterations.
@@ -81,44 +121,7 @@ int Fibonacci(int number)
 }
 ```
 
-## O(log N) - Logarithmic Running Time
 
-Logarithmic O(log N) — narrows down the search by repeatedly halving the dataset until you find the target value.
-
-Using binary search — which is a form of logarithmic algorithm, finds the median in the array and compares it to the target value. The algorithm will traverse either upwards or downwards depending on the target value being higher than, lower than or equal to the median.
-
-```C#
-public class BinarySearch<T>
-    {
-        public int Search(T[] array, T target)
-        {
-            if (!String.IsNullOrEmpty(target.ToString()))
-
-                return SearchHelper(array, target, 0, array.Length - 1);
-            return -1;
-        }
-
-        private int SearchHelper(T[] array, T target, int left, int right)
-        {
-            while (left <= right)
-            {
-                int middle = left + ((right - left) / 2);
-                var currentItem = array[middle];
-
-                Comparer<T> comparer = Comparer<T>.Default;
- 
-                if (comparer.Compare(currentItem, target) == 0)
-                    return middle;
-
-                else if (comparer.Compare(currentItem, target) > 0)
-                    right = middle - 1;
-                else
-                    left = middle + 1;
-            }
-            return -1;
-        }
-    }
-```
 
 ## O( N (log N) ) - Quasilinear time/ log-linear / Linearithmic Time
 
