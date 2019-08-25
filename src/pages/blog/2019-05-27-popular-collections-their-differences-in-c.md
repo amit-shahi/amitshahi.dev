@@ -263,9 +263,39 @@ Access Value from Dictionary collection by it's Key
 
 ```
 _dictionary[1];
-
 ```
 
+**Note:** 
+
+```
+static int[] matchingStrings(string[] strings, string[] queries) {
+
+    Dictionary<string, int> dict = new Dictionary<string, int>();
+    int[] result = new int[queries.Length];
+
+    foreach(string s in strings)
+    {
+        if(dict.ContainsKey(s))
+        {
+            // way to update counter Value for a matching key
+            dict[s] = dict[s]+1;
+        }
+        else
+        {
+            dict.Add(s,1);
+        }
+    }
+
+    for(int i=0; i < queries.Length; i++)
+    {
+        if(dict.ContainsKey(queries[i]))
+        {
+            result[i] = dict[queries[i]];
+        }
+    }
+    return result;
+}
+```
 
 There are no binary search available for Dictionary, instead we can use .ContainsKey() or .ContainsValue() to lookup an item in a Dictionary either by a key or a value. 
 
