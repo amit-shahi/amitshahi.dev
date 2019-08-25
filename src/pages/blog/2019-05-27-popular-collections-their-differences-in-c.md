@@ -278,6 +278,8 @@ static int[] matchingStrings(string[] strings, string[] queries) {
         if(dict.ContainsKey(s))
         {
             // way to update counter Value for a matching key
+            // point to the dict at given key and assign a new value
+
             dict[s] = dict[s]+1;
         }
         else
