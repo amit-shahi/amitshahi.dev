@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Awesome Todo App Built with .NET Core 2.2 & Angular 6
+title: Todo App with .NET Core & Angular
 date: 2019-08-31T11:07:59.248Z
 description: >-
   This is an awesome Todo App v1.0 created to share the fun and exciting feature
@@ -25,7 +25,13 @@ description: >-
 featuredpost: false
 featuredimage: /img/asp.net-core-and-angular.png
 ---
-# Project Overview
+# Awesome Todo App Built with .NET Core 2.2 & Angular 6
+
+[Source Code](https://github.com/amit-shahi/Sample-Projects--.NET-Core-2/tree/master/ToDo%20List%20Angular%20App)
+
+![Awesome Todo App Built with .NET Core 2.2 & Angular 6](/img/asp.net-core-and-angular.png "Awesome Todo App Built with .NET Core 2.2 & Angular 6")
+
+## Project Overview
 
 This is an awesome Todo App v1.0 created to share the fun and exciting feature of Angular & .NET Core together to build Single Page Application. The  project was created using following stack:
 
@@ -49,11 +55,9 @@ This is an awesome Todo App v1.0 created to share the fun and exciting feature o
 2. Make sure to install Node Js v10.16.3 or later, so Angular project can be compiled and run.
 3. Using Git Bash or Git Client (Git Desktop), clone this project on to your system by issuing `git clone https://github.com/amit-shahi/Sample-Projects--.NET-Core-2/TodoListApp`
 4. Once the clone is completed, Open the Visual Studio Code and make sure you are in the project root directory, Run `dotnet restore`
-
 5. Once All the .NET & NPM Package references are downloaded, Run `dotnet build` &amp; `dotnet run` command to build and run the Client and Selfhosted API endpoint.
 
-
-# ToDo_List_App
+## ToDo_List_App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
 
