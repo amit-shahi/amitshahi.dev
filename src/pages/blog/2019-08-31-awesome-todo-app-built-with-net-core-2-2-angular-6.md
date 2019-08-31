@@ -22,7 +22,7 @@ description: >-
   AutoMapper 8.1.1,
 
   AutoMapper Dependency Injection Extension 3.0.1
-featuredpost: true
+featuredpost: false
 featuredimage: /img/asp.net-core-and-angular.png
 ---
 # Project Overview
