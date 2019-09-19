@@ -27,7 +27,7 @@ featuredimage: /img/asp.net-core-and-angular.png
 ---
 # Awesome Todo App Built with .NET Core 2.2 & Angular 6
 
-[Source Code](https://github.com/amit-shahi/Sample-Projects--.NET-Core-2/tree/master/ToDo%20List%20Angular%20App)
+[Source Code](https://github.com/amit-shahi/ToDoListAngularApp)
 
 ![Awesome Todo App Built with .NET Core 2.2 & Angular 6](/img/asp.net-core-and-angular.png "Awesome Todo App Built with .NET Core 2.2 & Angular 6")
 
