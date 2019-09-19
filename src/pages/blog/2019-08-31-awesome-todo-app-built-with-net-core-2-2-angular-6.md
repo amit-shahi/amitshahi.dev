@@ -44,7 +44,7 @@ This is an awesome Todo App v1.0 created to share the fun and exciting feature o
 1. Angular 6.0.8
 2. Bootstrap 4.1.3
 3. TypeScript 2.7.2
-4. HTML 5 &amp; CSS 3
+4. HTML 5 & CSS 3
 
 ## Backend Technologies
 
@@ -57,7 +57,7 @@ This is an awesome Todo App v1.0 created to share the fun and exciting feature o
 
 1. Please download ASP.NET Core 2.2 on your machine from [.NET Core 2.2](https://dotnet.microsoft.com/download/dotnet-core/2.2)
 2. Make sure to install Node Js v10.16.3 or later, so Angular project can be compiled and run.
-3. Using Git Bash or Git Client (Git Desktop), clone this project on to your system by issuing `git clone https://github.com/amit-shahi/Sample-Projects--.NET-Core-2.git`
+3. Using Git Bash or Git Client (Git Desktop), clone this project on to your system by issuing `git clone https://github.com/amit-shahi/ToDoListAngularApp.git`
 4. Once the clone is completed, Open the Visual Studio Code and make sure you are in the project root directory, Run `dotnet restore`
 5. Once All the .NET & NPM Package references are downloaded, Run `dotnet build` &amp; `dotnet run` command to build and run the Client and Selfhosted API endpoint.
 
