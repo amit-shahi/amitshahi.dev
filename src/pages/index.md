@@ -7,11 +7,11 @@ subheading: 12+ years of experience in building awesome applications.
 mainpitch:
   title: About Me
   description: >-
-    My name is Amit, I'm from India. I have 12+ years of experience in Software
-    Development with Microsoft and Open Source Technologies.
+    I'm from India. I have a very good experience in Software Development with
+    Microsoft and Open Source Technologies.
 description: >-
-  I work as a Full Stack .NET Developer on eCommerce projects. I using Following
-  Technologies Stack.
+  I work as a Full Stack .NET Developer on eCommerce projects. I use following
+  technologies stack.
 intro:
   blurbs:
     - image: /img/coffee.png
